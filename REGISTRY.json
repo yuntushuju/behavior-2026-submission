@@ -1,0 +1,12 @@
+{
+  "image": "ghcr.io/yuntushuju/behavior-2026-submission@sha256:fa5c2a7afa8d0448d5857e220a06e5dd2545e3e59261b94897d43a829046bd6a",
+  "image_uri": "ghcr.io/yuntushuju/behavior-2026-submission:20261017-runtime-v3",
+  "registry_reference": "ghcr.io/yuntushuju/behavior-2026-submission@sha256:fa5c2a7afa8d0448d5857e220a06e5dd2545e3e59261b94897d43a829046bd6a",
+  "registry_digest": "sha256:fa5c2a7afa8d0448d5857e220a06e5dd2545e3e59261b94897d43a829046bd6a",
+  "models": 9,
+  "supported_tasks": 50,
+  "mapping_sha256": "956cfe4c2d55433c3f6bdba381e8180cd2ba94510c4e8bc222f391a77f6eafa7",
+  "release_url": "https://github.com/yuntushuju/behavior-2026-submission/releases/tag/submission-v3-20261017",
+  "submission_zip_url": "https://github.com/yuntushuju/behavior-2026-submission/releases/download/submission-v3-20261017/submission.zip",
+  "runtime_validation": "pending"
+}
