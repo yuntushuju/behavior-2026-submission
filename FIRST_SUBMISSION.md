@@ -7,7 +7,7 @@ This package covers task IDs 0-49, public instances 0-9, rollout 0: 500 original
 Use OmniGibson v3.9.3-post1 outside the policy container, with the included unchanged robot configuration and RGBDFullResWrapper.
 
 ```bash
-docker run --rm --gpus '"device=0"' -p 127.0.0.1:8000:8000 ghcr.io/yuntushuju/behavior-2026-submission@sha256:fa5c2a7afa8d0448d5857e220a06e5dd2545e3e59261b94897d43a829046bd6a --port 8000 --initial-model checkpoint_2
+docker run --rm --gpus '"device=0"' -p 127.0.0.1:8000:8000 ghcr.io/yuntushuju/behavior-2026-runtime@sha256:fa5c2a7afa8d0448d5857e220a06e5dd2545e3e59261b94897d43a829046bd6a --port 8000 --initial-model checkpoint_2
 python -m omnigibson.eval.eval --task-name TASK_NAME --instance-indices INSTANCE_INDEX --mode public_test --num-rollouts 1 --host 127.0.0.1 --port 8000 --robot-config ./r1pro.yaml --output-dir ./output --write-video --num-envs 1 --env-wrapper omnigibson.eval.wrappers.RGBDFullResWrapper
 ```
 
